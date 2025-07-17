@@ -1,0 +1,327 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Room Tibet</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container header__container">
+        <div class="header__logo">
+          <img src="logo.png" alt="Румтибет">
+        </div>
+        <div class="burger">&#9776;</div>
+        <nav class="header__nav" id="mobileNav">
+          <button class="mobile-nav__close" id="menuClose">&times;</button>
+          <ul class="nav__list">
+            <li><a href="#">Главная</a></li>
+            <li><a href="#">Про гида</a></li>
+            <li><a href="#">Программа тура</a></li>
+            <li><a href="#">Стоимость</a></li>
+            <li><a href="#">Блог</a></li>
+            <li><a href="#">Контакты</a></li>
+          </ul>
+          <button class="header__btn btn">Консультация</button>
+        </nav>
+      </div>
+    </header>
+  
+    <main class="main">
+      <section class="hero">
+        <div class="container hero__container">
+          <h1 class="hero__title">
+            НАСЛАДИСЬ ПРОГУЛКОЙ В ГОРАХ<br>
+            С КОМАНДОЙ ЕДИНОМЫШЛЕННИКОВ
+          </h1>
+  
+          <form class="hero__form">
+            <div class="form__group location">
+              <select class="form__select">
+                <option disabled selected>Локация для тура</option>
+                <option>Локация 1</option>
+                <option>Локация 2</option>
+              </select>
+              <small class="form__hint">выберите из списка</small>
+            </div>
+          
+            <div class="form__group date">
+              <input type="text" class="form__input" id="datepicker" placeholder="Дата похода" >
+              <small class="form__hint">укажите диапазон</small>
+            </div>
+          
+            <div class="form__group location">
+              <select class="form__select">
+                <option disabled selected>Участники</option>
+                <option>4 человека</option>
+                <option>5 человек</option>
+              </select>
+              <small class="form__hint">минимум 4 человека</small>
+            </div>
+          
+            <button type="submit" class="form__button">Найти программу</button>
+          </form>
+        </div>
+      </section>
+
+      <section class="about">
+        <div class="container about__container">
+          <div class="about__images">
+            <img class="pic1" src="pic1.png" alt="">
+            <img class="pic6" src="pic6.png" alt="">
+          </div>
+      
+          <div class="about__content">
+            <span class="about__subtitle">О нашем походе</span>
+            <h2 class="about__title">Исследуйте все горные массивы мира вместе с нами</h2>
+            <p class="about__text">
+              Его корни уходят в один фрагмент классической латыни 45 года н.э., то есть более двух тысячелетий назад. 
+              Ричард МакКлинток, профессор латыни из колледжа Hampden-Sydney, штат Вирджиния, взял одно из самых странных слов из Lorem Ipsum, "consectetur" и занялся его поисками в классической латинской литературе.
+            </p>
+            <button href="#" class="about__button btn">Программа тура</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="programs">
+        <div class="container programs__container">
+          <div class="programs__content">
+            <div class="content__header">
+              <span class="subtitle">Наше предложение</span>
+              <h2 class="title">Лучшие программы для тебя</h2>
+              <p class="description">
+                Его корни уходят в один фрагмент классической латыни 45 года н.э., то есть более двух тысячелетий назад. Ричард МакКлинток, профессор латыни из колледжа.
+              </p>
+            </div>
+
+            <div class="programs__benefits">
+              <div class="benefit">
+                <img src="svg1.png" alt="Опытный гид" class="benefit__icon">
+                <div class="benefit__title">
+                  <h3>Опытный гид</h3>
+                  <p class="description">
+                    Для современного мира базовый вектор развития предполагает независимые способы реализации соответствующих условий активизации.
+                  </p>
+                </div>
+              </div>
+              <div class="benefit">
+                <img src="svg2.png" alt="Безопасный поход" class="benefit__icon">
+                <div class="benefit__title">
+                  <h3>Безопасный поход</h3>
+                  <p class="description">
+                    Для современного мира базовый вектор развития предполагает независимые способы реализации соответствующих условий активизации.
+                  </p>
+                </div>
+              </div>
+              <div class="benefit">
+                <img src="svg3.png" alt="Лояльные цены" class="benefit__icon">
+                <div class="benefit__title">
+                  <h3>Лояльные цены</h3>
+                  <p class="description">
+                    Для современного мира базовый вектор развития предполагает независимые способы реализации соответствующих условий активизации.
+                  </p>
+                </div>
+              </div>
+              <button class="programs__button btn">Стоимость программ</button>
+            </div>
+          </div>
+          <div class="programs__image">
+            <img src="pic2.png" alt="Travel destination 1" class="programs__image">
+          </div>
+        </div>
+      </section>
+
+      <section class="directions">
+        <div class="container directions__container">
+          <div class="directions__content">
+            <div class="content__header">
+              <span class="subtitle">по версии отдыхающих</span>
+              <h2 class="title">Популярные направления</h2>
+            </div>
+
+            <div class="directions__cards">
+              <div class="card"><img src="pic3.png" alt=""></div>
+              <div class="card"><img src="pic4.png" alt=""></div>
+              <div class="card"><img src="pic5.png" alt=""></div>
+            </div>
+
+            <button class="directions__button btn">Рейтинг направлений</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="travels">
+        <div class="container travels__container">
+          <div class="travels__content">
+            <div class="content__header">
+              <span class="subtitle">делимся впечатлениями</span>
+              <h2 class="title">Блог о путешествиях</h2>
+            </div>
+            <div class="travels__articles">
+              <article class="article">
+                <img src="article1.png" alt="Красивые здания на скале у моря" class="article__image">
+                <div class="article__content">
+                  <h3 class="title">Красивая Италия, какая она в реальности?</h3>
+                  <p class="description">Для современного мира базовый вектор развития предполагает независимые способы реализации соответствующих условий активизации.</p>
+                  <div class="footer-article">
+                    <span class="date">01/04/2023</span>
+                    <a href="#" class="link">Читать статью</a>
+                  </div>
+                </div>
+              </article>
+              <article class="article">
+                <img src="article2.png" alt="Красивые здания на скале у моря" class="article__image">
+                <div class="article__content">
+                  <h3 class="title">Красивая Италия, какая она в реальности?</h3>
+                  <p class="description">Для современного мира базовый вектор развития предполагает независимые способы реализации соответствующих условий активизации.</p>
+                  <div class="footer-article">
+                    <span class="date">01/04/2023</span>
+                    <a href="#" class="link">Читать статью</a>
+                  </div>
+                </div>
+              </article>
+              <article class="article">
+                <img src="article3.png" alt="Красивые здания на скале у моря" class="article__image">
+                <div class="article__content">
+                  <h3 class="title">Красивая Италия, какая она в реальности?</h3>
+                  <p class="description">Для современного мира базовый вектор развития предполагает независимые способы реализации соответствующих условий активизации.</p>
+                  <div class="footer-article">
+                    <span class="date">01/04/2023</span>
+                    <a href="#" class="link">Читать статью</a>
+                  </div>
+                </div>
+              </article>
+              <article class="article">
+                <img src="article4.png" alt="Красивые здания на скале у моря" class="article__image">
+                <div class="article__content">
+                  <h3 class="title">Красивая Италия, какая она в реальности?</h3>
+                  <p class="description">Для современного мира базовый вектор развития предполагает независимые способы реализации соответствующих условий активизации.</p>
+                  <div class="footer-article">
+                    <span class="date">01/04/2023</span>
+                    <a href="#" class="link">Читать статью</a>
+                  </div>
+                </div>
+              </article>
+            </div>
+            <button class="travels__button btn">Другие материалы</button>
+          </div>
+        </div>
+        </div>
+      </section>
+
+      <section class="photos">
+        <div class="container photos__container">
+          <div class="photos__content">
+            <div class="content__header">
+              <span class="subtitle">Фото-отчет</span>
+              <h2 class="title">Делимся впечатлениями</h2>
+            </div>
+            <div class="photos__grid">
+              <div class="item">
+                <img src="photo1.png" alt="Воздушные шары на рассвете">
+              </div>
+              <div class="item">
+                <img src="photo2.png" alt="Воздушные шары на рассвете">
+              </div>
+              <div class="item">
+                <img src="photo3.png" alt="Туристические принадлежности">
+              </div>
+              <div class="item">
+                <img src="photo4.png" alt="Вид на пляж и лодки">
+              </div>
+              <div class="item">
+                <img src="photo5.png" alt="Вид на пляж и лодки">
+              </div>
+              <div class="item">
+                <img src="photo6.png" alt="Вид на пляж и лодки">
+              </div>
+            </div>
+
+            <button class="photos__button btn">
+              Наш Pinterest
+            </button>
+            
+            <div class="modal" id="photoModal">
+              <div class="modal__content">
+                <span class="modal__close"></span>
+                <img src="" alt="Увеличенное фото" class="modal__img">
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer__container">
+        <div class="footer__subscription">
+          <div class="left">
+            <span class="subtitle">Актуально</span>
+            <h2 class="title">Получайте полезные рассылки о путешествиях</h2>
+          </div>
+          <div class="right">
+            <span>Введите e-mail адрес</span>
+            <form class="footer__form">
+              <input type="email" placeholder="name@domain.com" class="footer__input">
+              <button type="submit" class="footer__button btn">Подписаться на новости</button>
+            </form>
+            <p class="footer__policy">
+              Подписываясь на новости, вы автоматически соглашаетесь с <a href="#">условиями обработки персональных данных</a> и <a href="#">правилами рекламных рассылок</a>.
+            </p>
+          </div>
+        </div>
+        <div class="footer__grid">
+          <div class="footer__column">
+            <h3 class="footer__heading">Компания «РумТибет»</h3>
+            <p class="footer__text">
+              Его корни уходят в один фрагмент классической латыни 45 года н.э., то есть более двух тысячелетий назад. Ричард МакКлинток, профессор латыни из колледжа Хампден-Сидней.
+            </p>
+            <div class="footer__contact">
+              <p>info@domain.com</p>
+              <p>+7 (123) 456-78-90</p>
+            </div>
+          </div>
+          <div class="footer__column">
+            <h3 class="footer__heading">Наши услуги</h3>
+            <ul class="footer__list">
+              <li><a href="#">Прогулки в горы летом</a></li>
+              <li><a href="#">Зимние походы в горы</a></li>
+              <li><a href="#">Последние храмы в горах</a></li>
+              <li><a href="#">Экстремальные виды туризма</a></li>
+              <li><a href="#">Походы в джунглях Амазонии</a> <span class="footer__new">new</span></li>
+              <li><a href="#">Поездка в Африку</a></li>
+            </ul>
+          </div>
+          <div class="footer__column">
+            <h3 class="footer__heading">Важно для путешествий</h3>
+            <ul class="footer__list">
+              <li><a href="#">Как собрать в долгий поход?</a></li>
+              <li><a href="#">Жизненно важные предметы для похода</a></li>
+              <li><a href="#">Медицинская страховка, гарантии безопасности</a></li>
+              <li><a href="#">Если вы врач - загляните сюда</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p>ИП Константинопольский К.К., 2023</p>
+        <p><a href="#">Политика обработки персональных данных</a></p>
+      </div>
+    </footer>
+    
+    <script type="module" src="/src/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr/dist/l10n/ru.js"></script>
+
+    <script>
+      flatpickr("input[type=text]", {
+      enableTime: true,
+      dateFormat: "Y-m-d H:i",
+      altFormat: "F j, Y",
+      locale: "ru"
+    });
+    </script>
+  </body>
+</html>
