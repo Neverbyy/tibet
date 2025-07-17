@@ -34,7 +34,6 @@ images.forEach(img => {
   img.addEventListener('click', openModal);
 });
 
-console.log("hi")
 // Закрытие модального окна при нажатии на крестик
 closeModal.addEventListener('click', closeModalWindow);
 

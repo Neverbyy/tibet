@@ -74,7 +74,7 @@
   .main {
     .hero {
       height: 100vh;
-      background: url('background.png') no-repeat center center/cover;
+      background: url('/background.png') no-repeat center center/cover;
       display: flex;
       align-items: center;
       justify-content: center;
@@ -151,11 +151,11 @@
             }
           
             &.location::after {
-              background-image: url('arrow.png');
+              background-image: url('/arrow.png');
             }
           
             &.date::after {
-              background-image: url('date.png');
+              background-image: url('/date.png');
             }
           }
   
